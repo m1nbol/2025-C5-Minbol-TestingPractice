@@ -33,6 +33,7 @@
 			isa = PBXGroup;
 			children = (
 				EE29B0E02E4DCF1C009CF9D0 /* SwiftTestingPractice */,
+				EE29B0FF2E4DD341009CF9D0 /* Frameworks */,
 				EE29B0DF2E4DCF1C009CF9D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,13 @@
 				EE29B0DE2E4DCF1C009CF9D0 /* SwiftTestingPractice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EE29B0FF2E4DD341009CF9D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
