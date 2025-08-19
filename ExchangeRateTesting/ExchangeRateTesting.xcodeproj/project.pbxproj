@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE29B2242E5456AF009CF9D0 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = EE29B2232E5456AF009CF9D0 /* Moya */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE29B1582E5453E5009CF9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE29B1422E5453E2009CF9D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE29B1492E5453E2009CF9D0;
+			remoteInfo = ExchangeRateTesting;
+		};
+		EE29B1622E5453E5009CF9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE29B1422E5453E2009CF9D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE29B1492E5453E2009CF9D0;
+			remoteInfo = ExchangeRateTesting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE29B14A2E5453E2009CF9D0 /* ExchangeRateTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRateTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE29B1572E5453E5009CF9D0 /* ExchangeRateTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeRateTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE29B1612E5453E5009CF9D0 /* ExchangeRateTestingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeRateTestingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EE29B14C2E5453E2009CF9D0 /* ExchangeRateTesting */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExchangeRateTesting;
+			sourceTree = "<group>";
+		};
+		EE29B15A2E5453E5009CF9D0 /* ExchangeRateTestingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExchangeRateTestingTests;
+			sourceTree = "<group>";
+		};
+		EE29B1642E5453E5009CF9D0 /* ExchangeRateTestingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ExchangeRateTestingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE29B1472E5453E2009CF9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE29B2242E5456AF009CF9D0 /* Moya in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29B1542E5453E5009CF9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29B15E2E5453E5009CF9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE29B1412E5453E2009CF9D0 = {
+			isa = PBXGroup;
+			children = (
+				EE29B14C2E5453E2009CF9D0 /* ExchangeRateTesting */,
+				EE29B15A2E5453E5009CF9D0 /* ExchangeRateTestingTests */,
+				EE29B1642E5453E5009CF9D0 /* ExchangeRateTestingUITests */,
+				EE29B14B2E5453E2009CF9D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE29B14B2E5453E2009CF9D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE29B14A2E5453E2009CF9D0 /* ExchangeRateTesting.app */,
+				EE29B1572E5453E5009CF9D0 /* ExchangeRateTestingTests.xctest */,
+				EE29B1612E5453E5009CF9D0 /* ExchangeRateTestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE29B1492E5453E2009CF9D0 /* ExchangeRateTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE29B16B2E5453E5009CF9D0 /* Build configuration list for PBXNativeTarget "ExchangeRateTesting" */;
+			buildPhases = (
+				EE29B1462E5453E2009CF9D0 /* Sources */,
+				EE29B1472E5453E2009CF9D0 /* Frameworks */,
+				EE29B1482E5453E2009CF9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EE29B14C2E5453E2009CF9D0 /* ExchangeRateTesting */,
+			);
+			name = ExchangeRateTesting;
+			packageProductDependencies = (
+				EE29B2232E5456AF009CF9D0 /* Moya */,
+			);
+			productName = ExchangeRateTesting;
+			productReference = EE29B14A2E5453E2009CF9D0 /* ExchangeRateTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE29B1562E5453E5009CF9D0 /* ExchangeRateTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE29B16E2E5453E5009CF9D0 /* Build configuration list for PBXNativeTarget "ExchangeRateTestingTests" */;
+			buildPhases = (
+				EE29B1532E5453E5009CF9D0 /* Sources */,
+				EE29B1542E5453E5009CF9D0 /* Frameworks */,
+				EE29B1552E5453E5009CF9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE29B1592E5453E5009CF9D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE29B15A2E5453E5009CF9D0 /* ExchangeRateTestingTests */,
+			);
+			name = ExchangeRateTestingTests;
+			packageProductDependencies = (
+			);
+			productName = ExchangeRateTestingTests;
+			productReference = EE29B1572E5453E5009CF9D0 /* ExchangeRateTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE29B1602E5453E5009CF9D0 /* ExchangeRateTestingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE29B1712E5453E5009CF9D0 /* Build configuration list for PBXNativeTarget "ExchangeRateTestingUITests" */;
+			buildPhases = (
+				EE29B15D2E5453E5009CF9D0 /* Sources */,
+				EE29B15E2E5453E5009CF9D0 /* Frameworks */,
+				EE29B15F2E5453E5009CF9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE29B1632E5453E5009CF9D0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EE29B1642E5453E5009CF9D0 /* ExchangeRateTestingUITests */,
+			);
+			name = ExchangeRateTestingUITests;
+			packageProductDependencies = (
+			);
+			productName = ExchangeRateTestingUITests;
+			productReference = EE29B1612E5453E5009CF9D0 /* ExchangeRateTestingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE29B1422E5453E2009CF9D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					EE29B1492E5453E2009CF9D0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					EE29B1562E5453E5009CF9D0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EE29B1492E5453E2009CF9D0;
+					};
+					EE29B1602E5453E5009CF9D0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EE29B1492E5453E2009CF9D0;
+					};
+				};
+			};
+			buildConfigurationList = EE29B1452E5453E2009CF9D0 /* Build configuration list for PBXProject "ExchangeRateTesting" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE29B1412E5453E2009CF9D0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EE29B2222E5456AF009CF9D0 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EE29B14B2E5453E2009CF9D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE29B1492E5453E2009CF9D0 /* ExchangeRateTesting */,
+				EE29B1562E5453E5009CF9D0 /* ExchangeRateTestingTests */,
+				EE29B1602E5453E5009CF9D0 /* ExchangeRateTestingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE29B1482E5453E2009CF9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29B1552E5453E5009CF9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29B15F2E5453E5009CF9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE29B1462E5453E2009CF9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29B1532E5453E5009CF9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE29B15D2E5453E5009CF9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE29B1592E5453E5009CF9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE29B1492E5453E2009CF9D0 /* ExchangeRateTesting */;
+			targetProxy = EE29B1582E5453E5009CF9D0 /* PBXContainerItemProxy */;
+		};
+		EE29B1632E5453E5009CF9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE29B1492E5453E2009CF9D0 /* ExchangeRateTesting */;
+			targetProxy = EE29B1622E5453E5009CF9D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE29B1692E5453E5009CF9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE29B16A2E5453E5009CF9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE29B16C2E5453E5009CF9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.ExchangeRateTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE29B16D2E5453E5009CF9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.ExchangeRateTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE29B16F2E5453E5009CF9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.ExchangeRateTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeRateTesting.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExchangeRateTesting";
+			};
+			name = Debug;
+		};
+		EE29B1702E5453E5009CF9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.ExchangeRateTestingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExchangeRateTesting.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExchangeRateTesting";
+			};
+			name = Release;
+		};
+		EE29B1722E5453E5009CF9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.ExchangeRateTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExchangeRateTesting;
+			};
+			name = Debug;
+		};
+		EE29B1732E5453E5009CF9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UKZF3A6P2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bmlee.ExchangeRateTestingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExchangeRateTesting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE29B1452E5453E2009CF9D0 /* Build configuration list for PBXProject "ExchangeRateTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29B1692E5453E5009CF9D0 /* Debug */,
+				EE29B16A2E5453E5009CF9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE29B16B2E5453E5009CF9D0 /* Build configuration list for PBXNativeTarget "ExchangeRateTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29B16C2E5453E5009CF9D0 /* Debug */,
+				EE29B16D2E5453E5009CF9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE29B16E2E5453E5009CF9D0 /* Build configuration list for PBXNativeTarget "ExchangeRateTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29B16F2E5453E5009CF9D0 /* Debug */,
+				EE29B1702E5453E5009CF9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE29B1712E5453E5009CF9D0 /* Build configuration list for PBXNativeTarget "ExchangeRateTestingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE29B1722E5453E5009CF9D0 /* Debug */,
+				EE29B1732E5453E5009CF9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE29B2222E5456AF009CF9D0 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE29B2232E5456AF009CF9D0 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE29B2222E5456AF009CF9D0 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EE29B1422E5453E2009CF9D0 /* Project object */;
+}
