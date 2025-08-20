@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Moya
 
 public protocol ExchangeClient {
     func fetchRate(base: String, quote: String) async throws -> Double
@@ -20,11 +21,21 @@ public struct MockClient: ExchangeClient {
     }
 }
 
-// 나중 Step에서 구현할 실제 네트워크 클라이언트 뼈대
 public struct LiveClient: ExchangeClient {
+    private let provider = MoyaProvider<ExchangeAPI>()
     public init() {}
+
     public func fetchRate(base: String, quote: String) async throws -> Double {
-        // TODO: Step 3에서 URLSession으로 구현
-        throw URLError(.unsupportedURL)
+        let response = try await provider.request(.latest(base: base, symbols: quote))
+
+        struct Response: Decodable {
+            let conversion_rates: [String: Double]
+        }
+
+        let decoded = try JSONDecoder().decode(Response.self, from: response.data)
+        guard let rate = decoded.conversion_rates[quote] else {
+            throw URLError(.badServerResponse)
+        }
+        return rate
     }
 }
