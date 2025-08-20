@@ -9,9 +9,9 @@ import Foundation
 
 @MainActor
 final class ConvertViewModel: ObservableObject {
-    @Published var base: String = "USD"
-    @Published var quote: String = "KRW"
-    @Published var amount: String = "100"
+    @Published var base: String = ""
+    @Published var quote: String = ""
+    @Published var amount: String = ""
     @Published var resultText: String = "-"
     @Published var isLoading = false
     @Published var errorMessage: String?
