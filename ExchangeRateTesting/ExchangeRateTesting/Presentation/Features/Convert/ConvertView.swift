@@ -48,6 +48,7 @@ struct ConvertView: View {
                         .accessibilityIdentifier("convertButton")
                 }
             }
+            .scrollDismissesKeyboard(.immediately)
             .navigationTitle("Exchange Rate")
         }
     }
