@@ -16,12 +16,15 @@ struct ConvertView: View {
                 Section("Currency Pair") {
                     TextField("Base (e.g. USD)", text: $viewModel.base)
                         .textInputAutocapitalization(.characters)
+                        .accessibilityIdentifier("baseField")
                     TextField("Quote (e.g. KRW)", text: $viewModel.quote)
                         .textInputAutocapitalization(.characters)
+                        .accessibilityIdentifier("quoteField")
                 }
                 Section("Amount") {
                     TextField("Amount", text: $viewModel.amount)
                         .keyboardType(.decimalPad)
+                        .accessibilityIdentifier("amountField")
                 }
                 Section("Result") {
                     if viewModel.isLoading {
@@ -29,9 +32,11 @@ struct ConvertView: View {
                     } else {
                         Text(viewModel.resultText)
                             .font(.title3).bold()
+                            .accessibilityIdentifier("resultText")
                     }
                     if let err = viewModel.errorMessage {
                         Text(err).foregroundStyle(.red)
+                            .accessibilityIdentifier("errorText")
                     }
                 }
                 Button {
@@ -41,6 +46,7 @@ struct ConvertView: View {
                     endEditing()
                 } label: {
                     Text("Convert")
+                        .accessibilityIdentifier("convertButton")
                 }
             }
             .navigationTitle("Exchange Rate")
