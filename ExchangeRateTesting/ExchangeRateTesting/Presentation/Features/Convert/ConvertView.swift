@@ -43,7 +43,6 @@ struct ConvertView: View {
                     Task {
                         await viewModel.convert()
                     }
-                    endEditing()
                 } label: {
                     Text("Convert")
                         .accessibilityIdentifier("convertButton")
@@ -51,15 +50,5 @@ struct ConvertView: View {
             }
             .navigationTitle("Exchange Rate")
         }
-    }
-}
-
-extension View {
-    /// 빈 곳 탭 시 키보드 내리기 (resignFirstResponder)
-    func endEditing() {
-        UIApplication.shared.sendAction(
-            #selector(UIResponder.resignFirstResponder),
-            to: nil, from: nil, for: nil
-        )
     }
 }
